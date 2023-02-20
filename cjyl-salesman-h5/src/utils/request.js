@@ -3,9 +3,6 @@ import qs from 'qs'
  // import { Message } from 'element-ui';
 
  const instance = axios.create({
-     // baseURL: 'https://app.changenhealth.cn',//生产
-    //  baseURL: 'http://test.changenhealth.cn/',//测试
-     // baseURL: 'http://10.10.5.3:8080',// 本地测试
      baseURL:process.env.VUE_APP_BASEURL,//本机
      timeout: 10000,
  });

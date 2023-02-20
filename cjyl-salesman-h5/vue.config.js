@@ -7,8 +7,6 @@ module.exports = defineConfig({
     proxy: {
       '/': {
         target: 'https://app.changenhealth.cn/', // 生产
-        // target: 'http://test.changenhealth.cn/salesman', // 测试
-        // target: 'http://10.10.5.6:15808', // 本地
         changeOrigin: true,
         ws:false,
         pathRewrite: {
