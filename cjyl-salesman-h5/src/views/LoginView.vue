@@ -25,7 +25,7 @@
       ><button @click="codeBtn" :disabled="codeDis">{{ codeBtnText }}</button>
     </div>
     <!-- 登录 -->
-    <button class="logBtn" @click="loginBtn">登录</button>
+    <button class="logBtn" @click="loginBtn">登 录</button>
     <!-- 底部 -->
     <div class="bottonBtn">
       <el-checkbox v-model="checked"></el-checkbox>
